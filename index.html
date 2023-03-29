@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <form id="login_form">
+            <div id="form_header">
+                <h1>Form Validation</h1>
+                <div class="mode_button">
+                    <div class="mode_buttonInterno"></div>
+                </div>
+            </div>
+            <div id="social_media">
+                <a href="https://www.instagram.com/snclaudenir/" target="_blank">
+                    <img src="assets/images/instagram-logo.svg" alt="Instagram logo">
+                </a>
+                <a href="https://www.linkedin.com/in/claudenir-filho-4b157a264/" target="_blank">
+                    <img src="assets/images/linkedin-logo.svg" alt="Linkedin logo">
+                </a>
+                <a href="https://github.com/Claudenir-Nojosa" target="_blank">
+                    <img src="assets/images/github-logo.svg" alt="Github logo">
+                </a>
+            </div>
+            <div id="inputs">
+                <div class="input-box">
+                    <label for="name">
+                        Nome
+                        <div class="input-field">
+                            <i class="fa-solid fa-user"></i>
+                            <input placeholder="Insira seu nome" id="name" name="name" type="text">
+                        </div>
+                    </label>
+                    <label for="email">
+                        E-mail
+                        <div class="input-field">
+                            <i class="fa-solid fa-envelope"></i>
+                            <input placeholder="Insira seu e-mail" id="email" name="email" type="email">
+                        </div>
+                    </label>
+                    <label for="telefone">
+                        Celular
+                        <div class="input-field">
+                            <i class="fa-solid fa-phone"></i>
+                            <input id="telefone" name="telefone" type="tel">
+                        </div>
+                    </label>
+                    <label for="cpf">
+                        CPF
+                        <div class="input-field">
+                            <i class="fa-solid fa-id-card"></i>
+                            <input id="cpf" name="cpf" type="text">
+                        </div>
+                    </label>
+                    <label for="address">
+                        Endereço
+                        <div class="input-field">
+                            <i class="fa-solid fa-map-location"></i>
+                            <input placeholder="Insira seu endereço" id="address" name="address" type="text">
+                        </div>
+                    </label>
+                    <label for="cep">
+                        CEP
+                        <div class="input-field">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <input id="cep" name="cep" type="text">
+                        </div>
+                    </label>
+                    <div id="forgot_password">
+                        <a href="#">
+                            Forgot your password?
+                        </a>
+                    </div>
+                    <div id="login_button">
+                        <button id="btn" type="submit">Login</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <div id="footer">
+            <footer>
+                <img src="/assets/images/code-footer.png" alt="Code logo">
+                <h3>Coded by</h3>
+                <a href="https://youtube.com/shorts/OR7sW7rUaqs?feature=share" target="_blank">
+                    <img src="/assets/images/parrot-footer.png" alt="">
+                </a>
+            </footer>
+        </div>
+    </div>
+    <script src="/assets/js/jquery-3.6.4.min.js"></script>
+    <script src="assets/js/jquery.mask.min.js"></script>
+    <script src="/assets/js/jquery.validate.min.js"></script>
+    <script src="/assets/js/messages_pt_PT.min.js"></script>
+    <script src="/assets/js/script.js"></script>
+</body>
+</html>
